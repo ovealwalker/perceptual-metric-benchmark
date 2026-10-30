@@ -1,0 +1,11 @@
+subset,method_group,item,condition,content_type,mean_score,pred_fusion_trial,error
+proposed-addition,ILD,ILD_PRC04_moving_dry,Q2,solo_instrument,40.0435,73.82584396075178,33.78234396075178
+2024-icassp + 2024-aes,UN,UN_21_violin,Q2,solo_instrument,32.6429,63.27395684085901,30.63105684085901
+2024-icassp + 2024-aes,UN,UN_21_violin,Q3,solo_instrument,40.381,69.27715971053539,28.896159710535386
+2025-lanzendorfer,speech,SitaSings_remix2_FG,encodec,speech,35.7692,64.12317718361592,28.353977183615925
+2024-icassp + 2024-aes,TM,TM_CreatureFromTheBlackjackTable,Q2,music,46.5952,74.06730705337115,27.472107053371154
+2025-lanzendorfer,combined,CosmosLandromat_remix2_LD9,snac,speech+M&E,63.9412,37.03443972162091,-26.90676027837909
+2024-icassp + 2024-aes,UN,UN_20c_accordion,Q1,solo_instrument,25.8095,52.39071670524367,26.58121670524367
+2024-icassp + 2024-aes,TM,TM_AmateurOnPurpose,Q1,music,22.9286,49.085770836240265,26.157170836240265
+2024-icassp + 2024-aes,UN,UN_21_violin,Q1,solo_instrument,18.6905,44.6219511707987,25.931451170798702
+2024-icassp + 2024-aes,UN,UN_CreatureFromTheBlackjackTable,Q2,music,84.2857,59.76139746441002,-24.52430253558999

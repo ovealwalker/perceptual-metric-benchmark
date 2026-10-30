@@ -1,0 +1,222 @@
+{
+  "n_clips": 488,
+  "n_trials": 96,
+  "n_artifacts": 16,
+  "top_metric": "2f",
+  "top_family": "Psychoacoustic model",
+  "top_pearson": 0.7444857520117594,
+  "top_ci": [
+    0.6889880717644571,
+    0.7860827575393877
+  ],
+  "best_ai": {
+    "metric": "SCOREQ_ref",
+    "pearson": 0.74021306450693
+  },
+  "best_psycho": {
+    "metric": "2f",
+    "pearson": 0.7444857520117594
+  },
+  "best_classic": {
+    "metric": "fwSNRseg",
+    "pearson": 0.6273286247855341
+  },
+  "fusion_model": "gbm",
+  "generalization": [
+    {
+      "level": "Unseen trial",
+      "group": "item",
+      "fusion_r": 0.8885647735762005,
+      "fusion_ci": [
+        0.8645235375795758,
+        0.9097350203472039
+      ],
+      "fusion_rmse": 9.276013598183098,
+      "top_r": 0.7444857520117594,
+      "diff_ci": [
+        0.10665777712847635,
+        0.18668769266867621
+      ],
+      "ridge_r": 0.8233021086962009
+    },
+    {
+      "level": "Unseen song / recording",
+      "group": "source",
+      "fusion_r": 0.8568244890253274,
+      "fusion_ci": [
+        0.8237533941811854,
+        0.8837568372924144
+      ],
+      "fusion_rmse": 10.366215759091368,
+      "top_r": 0.7444857520117594,
+      "diff_ci": [
+        0.0749388843805054,
+        0.14963869422366227
+      ],
+      "ridge_r": 0.8062537504667959
+    },
+    {
+      "level": "Unseen artifact type",
+      "group": "method_group",
+      "fusion_r": 0.8362586029499766,
+      "fusion_ci": [
+        0.8024478276876424,
+        0.8645859350370635
+      ],
+      "fusion_rmse": 12.278442244257993,
+      "top_r": 0.7444857520117594,
+      "diff_ci": [
+        0.05755121799313701,
+        0.13021236258395985
+      ],
+      "ridge_r": 0.731346578245473
+    },
+    {
+      "level": "Unseen listening test",
+      "group": "subset",
+      "fusion_r": 0.7468578598045533,
+      "fusion_ci": [
+        0.6966139452759577,
+        0.7927825024207403
+      ],
+      "fusion_rmse": 16.543503679086285,
+      "top_r": 0.7444857520117594,
+      "diff_ci": [
+        -0.028557230574164746,
+        0.038015405145414925
+      ],
+      "ridge_r": 0.6978176339127952
+    }
+  ],
+  "fusion_trial_pearson": 0.8885647735762005,
+  "fusion_trial_ci": [
+    0.8645235375795758,
+    0.9097350203472039
+  ],
+  "fusion_trial_rmse": 9.276013598183098,
+  "weakest_artifacts": [
+    {
+      "artifact": "Stereo balance (ILD)",
+      "Fusion (ML) unseen trial": 0.5945854353962918,
+      "Fusion (ML) unseen artifact": 0.5722495624059925
+    },
+    {
+      "artifact": "Stereo width (ICC)",
+      "Fusion (ML) unseen trial": 0.6212172187902183,
+      "Fusion (ML) unseen artifact": 0.49525070460882614
+    },
+    {
+      "artifact": "Unmasked noise",
+      "Fusion (ML) unseen trial": 0.7320161197347361,
+      "Fusion (ML) unseen artifact": 0.7482529372278074
+    }
+  ],
+  "strongest_artifacts": [
+    {
+      "artifact": "Stereo noise M/S",
+      "Fusion (ML) unseen trial": 0.9737032899438811
+    },
+    {
+      "artifact": "Stereo noise L/R",
+      "Fusion (ML) unseen trial": 0.9835245041851002
+    },
+    {
+      "artifact": "Stereo holes M/S",
+      "Fusion (ML) unseen trial": 0.9881308959186146
+    }
+  ],
+  "by_content": [
+    {
+      "content": "music",
+      "n": 112,
+      "Fusion (ML) unseen trial": 0.9038491934726618,
+      "2f": 0.6981406308606452
+    },
+    {
+      "content": "other",
+      "n": 5,
+      "Fusion (ML) unseen trial": 0.9017266782542672,
+      "2f": 0.950244222309123
+    },
+    {
+      "content": "solo_instrument",
+      "n": 83,
+      "Fusion (ML) unseen trial": 0.8741709151045174,
+      "2f": 0.7874722127005129
+    },
+    {
+      "content": "speech",
+      "n": 78,
+      "Fusion (ML) unseen trial": 0.9298913462794107,
+      "2f": 0.7464403981808664
+    },
+    {
+      "content": "speech+M&E",
+      "n": 210,
+      "Fusion (ML) unseen trial": 0.8928009546940158,
+      "2f": 0.6870403430679299
+    }
+  ],
+  "biggest_misses": [
+    {
+      "item": "ILD_PRC04_moving_dry",
+      "condition": "Q2",
+      "mean_score": 40.0,
+      "pred_fusion_trial": 73.8
+    },
+    {
+      "item": "UN_21_violin",
+      "condition": "Q2",
+      "mean_score": 32.6,
+      "pred_fusion_trial": 63.3
+    },
+    {
+      "item": "UN_21_violin",
+      "condition": "Q3",
+      "mean_score": 40.4,
+      "pred_fusion_trial": 69.3
+    },
+    {
+      "item": "SitaSings_remix2_FG",
+      "condition": "encodec",
+      "mean_score": 35.8,
+      "pred_fusion_trial": 64.1
+    },
+    {
+      "item": "TM_CreatureFromTheBlackjackTable",
+      "condition": "Q2",
+      "mean_score": 46.6,
+      "pred_fusion_trial": 74.1
+    },
+    {
+      "item": "CosmosLandromat_remix2_LD9",
+      "condition": "snac",
+      "mean_score": 63.9,
+      "pred_fusion_trial": 37.0
+    },
+    {
+      "item": "UN_20c_accordion",
+      "condition": "Q1",
+      "mean_score": 25.8,
+      "pred_fusion_trial": 52.4
+    },
+    {
+      "item": "TM_AmateurOnPurpose",
+      "condition": "Q1",
+      "mean_score": 22.9,
+      "pred_fusion_trial": 49.1
+    },
+    {
+      "item": "UN_21_violin",
+      "condition": "Q1",
+      "mean_score": 18.7,
+      "pred_fusion_trial": 44.6
+    },
+    {
+      "item": "UN_CreatureFromTheBlackjackTable",
+      "condition": "Q2",
+      "mean_score": 84.3,
+      "pred_fusion_trial": 59.8
+    }
+  ]
+}
